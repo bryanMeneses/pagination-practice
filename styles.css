@@ -13,6 +13,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 64px;
 }
 
 .contact-card {
@@ -37,4 +38,16 @@ html {
   padding: 12px;
   letter-spacing: 0.65px;
   line-height: 18px;
+}
+
+.page-navigator {
+  cursor: pointer;
+}
+
+.page-number {
+  width: 432px;
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  bottom: 40px;
 }
